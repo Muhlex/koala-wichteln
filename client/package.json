@@ -1,0 +1,21 @@
+{
+	"name": "koala-wichteln",
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview",
+		"lint": "eslint --ignore-path .gitignore ."
+	},
+	"dependencies": {
+		"@fontsource/fira-mono": "^4.2.2"
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "next",
+		"eslint": "^7.22.0",
+		"eslint-plugin-svelte3": "^3.2.0",
+		"svelte": "^3.34.0",
+		"svelte-preprocess": "^4.0.0"
+	}
+}

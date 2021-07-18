@@ -1,0 +1,29 @@
+{
+  "name": "koala-wichteln-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fast-xml-parser": "^3.19.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2",
+    "node-fetch": "^2.6.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-steam": "^1.0.15",
+    "steamapi": "^2.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "nodemon": "^2.0.10"
+  },
+  "author": "",
+  "license": "ISC"
+}
